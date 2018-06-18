@@ -14,8 +14,8 @@ main() {
 	{
 		cout << "thang khong ton tai";
 	}
-	else if (a==2 && b%4==0 || b%100==0 && b%400==0)
-	{
+	else if ( b%4==0 && b%100==0 || b%400==0)
+	
 		cout << "thang nay co 29 ngay";
 	}
 	else if (a==2)
